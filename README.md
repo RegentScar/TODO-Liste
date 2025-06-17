@@ -1,13 +1,23 @@
-Dieses Repository enthält eine einfache webbasierte TODO Listen Anwendung. Sie ermöglicht es Benutzern, ihre Aufgaben und Ereignisse mit verschiedenen Details zu verwalten.
+## TODO-Liste – Webanwendung mit JavaScript und Local Storage
 
-## Funktionen:
+Dieses Webprojekt bietet eine einfache und interaktive Anwendung zur Verwaltung Ihrer Aufgaben und Ereignisse direkt im Browser. Du kannst neue TODOs hinzufügen, bestehende bearbeiten oder löschen und die Liste nach Belieben durchsuchen – alle Daten werden lokal im Browser gespeichert.
 
-* **Neue TODOs hinzufügen**: Fügen Sie einfach neue Aufgaben oder Ereignisse mit Titel, Beschreibung, Autor und Kategorie hinzu.
-* **Aufgaben-/Ereignis-Unterscheidung**: Unterscheiden Sie zwischen Aufgaben und Ereignissen.
-* **Prioritätsstufen**: Weisen Sie Prioritäten basierend auf Wichtigkeit und Dringlichkeit zu, kategorisiert als "Sofort erledigen", "Einplanen und Wohlfühlen", "Gib es ab" oder "Weg damit".
-* **Datumsverfolgung**: Legen Sie Start- und Enddaten für jedes TODO fest.
-* **Prozentsatz der Fertigstellung**: Verfolgen Sie den Fortschritt jedes TODOs mit einem Prozentsatz der Fertigstellung.
-* **Bearbeiten und Löschen**: Bearbeiten Sie bestehende TODOs oder entfernen Sie sie aus der Liste.
-* **Suchfunktion**: Finden Sie TODOs schnell, indem Sie nach Titeln, Beschreibungen oder Autoren suchen.
-* **Lokaler Speicher**: Alle TODOs werden im lokalen Speicher des Browsers gespeichert, sodass Ihre Daten auch dann erhalten bleiben, wenn Sie den Browser schließen.
-* **Responsives Design**: Die Anwendung ist so konzipiert, dass sie auf verschiedenen Bildschirmgrößen nutzbar ist.
+### Funktionen
+
+* **Neue TODOs hinzufügen**: Erfasse Aufgaben oder Ereignisse mit Titel, Beschreibung, Autor und Kategorie.
+* **Aufgaben- und Ereignisunterscheidung**: Klassifiziere Einträge als "Task" oder "Event".
+* **Prioritätsmanagement**: Automatische Zuweisung von Prioritätsstufen ("Sofort erledigen", "Einplanen und Wohlfühlen", "Gib es ab", "Weg damit") basierend auf Wichtigkeit und Dringlichkeit.
+* **Datumsplanung**: Lege Start- und Enddaten für jedes TODO fest.
+* **Fortschrittsanzeige**: Verfolge den Erledigungsgrad in Prozent.
+* **Bearbeiten und Löschen**: Einfaches Aktualisieren oder Entfernen von TODO-Einträgen.
+* **Suchfunktion**: Schnelles Auffinden von TODOs durch Suche nach Titel, Beschreibung oder Autor.
+* **Persistente Datenspeicherung**: Alle Daten bleiben im lokalen Speicher des Browsers erhalten, auch nach dem Schließen der Anwendung.
+* **Responsives Design**: Die Benutzeroberfläche passt sich verschiedenen Bildschirmgrößen an.
+
+### Voraussetzungen
+
+Ein moderner Webbrowser (z.B. Chrome, Firefox, Edge)
+
+### Ausführen
+
+Öffne einfach die Datei `index.html` in deinem Webbrowser.
