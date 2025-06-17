@@ -11,8 +11,8 @@ Dieses Webprojekt bietet eine einfache und interaktive Anwendung zur Verwaltung 
 * **Fortschrittsanzeige**: Verfolge den Erledigungsgrad in Prozent.
 * **Bearbeiten und Löschen**: Einfaches Aktualisieren oder Entfernen von TODO-Einträgen.
 * **Suchfunktion**: Schnelles Auffinden von TODOs durch Suche nach Titel, Beschreibung oder Autor.
-* **Persistente Datenspeicherung**: Alle Daten bleiben im lokalen Speicher des Browsers erhalten, auch nach dem Schließen der Anwendung.
-* **Responsives Design**: Die Benutzeroberfläche passt sich verschiedenen Bildschirmgrößen an.
+* **Persistente Datenspeicherung**: Alle Daten bleiben im lokalen Speicher des Browsers erhalten, auch nach dem Schliessen der Anwendung.
+* **Responsives Design**: Die Benutzeroberfläche passt sich verschiedenen Bildschirmgrössen an.
 
 ### Voraussetzungen
 
