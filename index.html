@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO Liste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TODO Liste</h1>
+
+        <!-- Formular zum Hinzufügen und Bearbeiten von TODOs -->
+        <form id="todoForm">
+            <input type="hidden" id="todoId"> <!-- Verstecktes Feld für die ID beim Bearbeiten -->
+
+            <div>
+                <label for="title">Titel (Max: 255):</label>
+                <input type="text" id="title" maxlength="255" required>
+            </div>
+
+            <div>
+                <label for="isEvent">Typ:</label>
+                <select id="isEvent">
+                    <option value="false">Task</option>
+                    <option value="true">Event</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="description">Beschreibung:</label>
+                <textarea id="description" rows="3" required></textarea>
+            </div>
+
+            <div>
+                <label for="author">Autor (Max: 20):</label>
+                <input type="text" id="author" maxlength="20" required>
+            </div>
+
+            <div>
+                <label for="category">Kategorie:</label>
+                <select id="category" required>
+                    <option value="">Bitte wählen...</option>
+                    <option value="Arbeit">Arbeit</option>
+                    <option value="Privat">Privat</option>
+                    <option value="Sport">Sport</option>
+                    <option value="Einkaufen">Einkaufen</option>
+                    <option value="Projekte">Projekte</option>
+                </select>
+            </div>
+
+            <div class="checkbox-group">
+                <label for="isImportant">Wichtig:</label>
+                <input type="checkbox" id="isImportant">
+            </div>
+
+            <div class="checkbox-group">
+                <label for="isUrgent">Dringend:</label>
+                <input type="checkbox" id="isUrgent">
+            </div>
+
+            <div>
+                <label for="startDate">Startdatum:</label>
+                <input type="date" id="startDate" required>
+            </div>
+
+            <div>
+                <label for="endDate">Enddatum:</label>
+                <input type="date" id="endDate" required>
+            </div>
+
+            <div>
+                <label for="percentage">Prozentsatz erledigt (0-100%):</label>
+                <input type="number" id="percentage" min="0" max="100" value="0" required>
+            </div>
+
+            <button type="submit" id="addBtn">Hinzufügen</button>
+            <button type="submit" id="updateBtn" class="hidden">Aktualisieren</button>
+            <button type="button" id="cancelBtn" class="hidden">Abbrechen</button>
+        </form>
+
+        <!-- Suchfeld -->
+        <h2>TODOs Suchen</h2>
+        <input type="text" id="searchInput" placeholder="Suche nach Titel, Beschreibung oder Autor.">
+
+        <!-- Liste der TODOs -->
+        <h2>Meine TODOs</h2>
+        <ul id="todoList">
+            <!-- TODOs werden hier per JavaScript eingefügt -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
