@@ -38,12 +38,10 @@ input[type="number"],
 textarea,
 select {
     width: calc(100% - 22px);
-    /* Berücksichtigt Padding und Border */
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box;
-    /* Wichtig für width: 100% */
 }
 
 textarea {
@@ -108,7 +106,6 @@ button:hover {
     margin-bottom: 10px;
     border-radius: 4px;
     border-left: 5px solid #0000ff;
-    /* Standardfarbe */
 }
 
 #todoList li.priority-sofort {
@@ -126,7 +123,6 @@ button:hover {
 #todoList li.priority-weg {
     border-left-color: grey;
 }
-
 
 #todoList li h3 {
     margin-top: 0;
@@ -155,7 +151,6 @@ button:hover {
     margin-right: 5px;
 }
 
-/* Validierungs-Feedback */
 input:invalid,
 textarea:invalid,
 select:invalid {

@@ -79,7 +79,6 @@ document.addEventListener('DOMContentLoaded', () => {
     function validateForm() {
         let isValid = true;
         // Einfache Validierung: Sind Pflichtfelder ausgefüllt?
-        // Man könnte hier spezifischere Fehlermeldungen pro Feld hinzufügen
         if (!titleInput.value.trim()) {
             alert("Titel ist ein Pflichtfeld.");
             isValid = false;
